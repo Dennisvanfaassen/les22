@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Dennis van Faassen</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+      <header>
+      </header>
+
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Dennis van Faassen</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class=" collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ms-auto ">
+                <li class="nav-item">
+                  <a class="nav-link mx-2" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-2" href="overmij.html">Over Mij</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-2 active" aria-current="page" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          </nav>
+
+        <div class="container-md">
+
+          <div class="about justify-content-center">
+            <div class="col-12">
+              <h2> Dennis van Faassen </h2>
+              <h3>
+                Kom in contact met mij
+              </h3>
+
+              <form>
+                <div class="form-row col-12">
+                  <div class="form-group col-4">
+                    <label for="inputName">Voornaam</label>
+                    <input type="text" class="form-control" id="inputName" placeholder="Dennis">
+                  </div>
+                  <div class="form-group col-4">
+                    <label for="inputName2">Achternaam</label>
+                    <input type="text" class="form-control" id="inputName2" placeholder="van Faassen">
+                  </div>
+                </div>
+                <div class="form-group col-4">
+                  <label for="inputAddress">Adres</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="Pitrus 25">
+                </div>
+                <div class="form-group col-4">
+                  <label for="inputAddress2">Postcode</label>
+                  <input type="text" class="form-control" id="inputAddress2" placeholder="7701 MS">
+                </div>
+                <div class="form-row col-12">
+                  <div class="form-group col-4">
+                    <label for="inputCity">Plaats</label>
+                    <input type="text" class="form-control" id="inputCity" placeholder="Dedemsvaart">
+                  </div>
+                  <div class="form-group col-4">
+                    <label for="inputCountry">Land</label>
+                    <select id="inputCountry" class="form-control">
+                      <option selected>Maak uw keuze</option>
+                      <option>Nederland</option>
+                      <option>België</option>
+                      <option>Duitsland</option>
+                    </select>
+                  </div>
+                  <div class="form-group col-4">
+                    <label for="inputMail">E-mail Adres</label>
+                    <input type="email" class="form-control" id="inputMail" placeholder="dvanfaassen1@gmail.com">
+                  </div>
+                  <div class="form-group col-4">
+                    <label for="FormControlTextarea1">Bericht</label>
+                    <textarea class="form-control" id="FormControlTextarea1" rows="5"></textarea>
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Verzenden</button>
+              </form>
+
+            </div>
+          </div>
+
+        </div>
+
+      <footer class="footer">
+        <div class="footer-content">
+          <h6>&copy; Dennis van Faassen</h6>
+        </div>
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>

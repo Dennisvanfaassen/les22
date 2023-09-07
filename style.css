@@ -1,0 +1,78 @@
+* {
+}
+
+.container-md {
+  background-color: #A7FFF6;
+}
+
+.row {
+  text-align: center;
+}
+
+.col-sm-12 {
+}
+
+h2 {
+  font-size: 23px;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+img {
+  margin: 25px;
+}
+
+.nav-item:hover {
+  background-color: #0B4F6C;
+}
+
+.container-md {
+  padding: 25px;
+}
+
+.card-img-left {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.footer {
+  height: 200px;
+  background-color: black;
+}
+
+.footer-content {
+  height: 200px;
+  background-color: #38433F;
+}
+
+h6 {
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+
+.card {
+  display: inline-block;
+  max-width: 26rem;
+  margin: 2px;
+}
+
+.card-text {
+  text-align: left;
+}
+
+.werk {
+  padding-top: 35px;
+}
+
+.hobbie {
+  padding-top: 35px;
+}
+
+.btn-primary {
+  margin-top: 15px;
+}
